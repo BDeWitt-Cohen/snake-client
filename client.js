@@ -22,6 +22,18 @@ const connect = function() {
     conn.write('Name: TJT');
   });
 
+  // conn.on('connect', () => {
+  //   conn.write('Move: left');
+  //   conn.write('Move: up');
+  //   conn.write('Move: left');
+  //   conn.write('Move: up');
+  //   setInterval(() => {
+  //     conn.write('Move: left')
+  //   }, 50)
+    
+  // }); Automatically moving snek upon connection to server
+
+
   return conn;
 }
 
